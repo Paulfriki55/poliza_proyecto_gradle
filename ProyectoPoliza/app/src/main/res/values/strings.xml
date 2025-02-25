@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProyectoPoliza</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="basic_plan">Básico</string>
+    <string name="dental_plan">Dental</string>
+    <string name="optimal_plan">Óptimo</string>
+    <string name="premium_plan">Premium</string>
+    <string name="calcular_poliza">Calcular Póliza</string>
+    <string name="ver_polizas">Ver Mis Pólizas</string>
+    <string name="editar_usuario">Editar Usuario</string>
+    <string name="eliminar_usuario">Eliminar Usuario</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="ver_reporte">Ver Reporte General</string>
+
+    <!-- Nuevas opciones de seguro extra -->
+    <string name="seguro_incendios">Seguro contra Incendios (+15$)</string>
+    <string name="seguro_robo">Seguro contra Robo (+20$)</string>
+    <string name="seguro_terremoto">Seguro contra Terremotos (+25$)</string>
+    <string name="seguro_inundacion">Seguro contra Inundaciones (+18$)</string>
+    <string name="guardar_poliza">Guardar Póliza</string>
+</resources>

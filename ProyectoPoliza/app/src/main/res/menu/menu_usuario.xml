@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_ver_polizas"
+        android:title="@string/ver_polizas" />
+    <item
+        android:id="@+id/menu_editar_usuario"
+        android:title="@string/editar_usuario" />
+    <item
+        android:id="@+id/menu_eliminar_usuario"
+        android:title="@string/eliminar_usuario" />
+    <item
+        android:id="@+id/menu_cerrar_sesion"
+        android:title="@string/cerrar_sesion" />
+</menu>

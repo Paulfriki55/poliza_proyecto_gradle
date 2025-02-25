@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planes_array">
+        <item>Básico</item>
+        <item>Dental</item>
+        <item>Óptimo</item>
+        <item>Premium</item>
+    </string-array>
+</resources>

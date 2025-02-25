@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcula tu Póliza"
+            android:textSize="24sp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textViewUsuarioNombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="Usuario: "/>
+
+            <ImageView
+                android:id="@+id/imageViewMenuUsuario"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_menu_dots_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Menú de Usuario" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona el Plan Base:"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerPlan"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opciones Adicionales:"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxIncendio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seguro_incendios"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxRobo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seguro_robo"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxTerremoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seguro_terremoto"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxInundacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/seguro_inundacion"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:id="@+id/textViewCostoPoliza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/buttonCalcularPoliza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular_poliza"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/buttonGuardarPoliza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar_poliza"
+            android:layout_marginBottom="8dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
